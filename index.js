@@ -9,4 +9,6 @@ const data= {
 }
 jsonfile.writeFile(FILE_PATH,data);
 
+for(var i = 0)
+
 git.add([FILE_PATH]).commit(DATE,{'--date':DATE}).push();
